@@ -8,7 +8,7 @@ metadata:
     k3s-upgrade: server
 spec:
   concurrency: 1
-  version:  fleet-sample
+  version:  fleet-sample2
   nodeSelector:
     matchExpressions:
       - {key: k3s.io/hostname, operator: Exists}
